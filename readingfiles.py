@@ -19,3 +19,4 @@ zfile=open("strings.py")
 inp=zfile.read()
 print(len(inp))
 print(inp[:20])
+
