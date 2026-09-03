@@ -11,3 +11,4 @@ d=(1,2,3,4,5)
 print(d.count(2)) #returns the number of occurrences of the value 2 in the tuple
 numbers=(1,2,3,4,5)
 print(numbers.index(3)) #returns the index of the first occurrence of the value 3 
+print(len(numbers)) #returns the number of elements in the tuple
