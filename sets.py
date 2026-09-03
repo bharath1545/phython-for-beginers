@@ -18,3 +18,8 @@ print(g) # Print the updated set g
 #3. mutable
 #there is no way to change the items in a set, but you can add new items
 #sets do not contain duplicate items. Duplicate items will be ignored
+len(g) # Return the number of items in the set g
+g.remove(3) # Remove the element 3 from the set g
+print(g) # Print the updated set g
+g.pop() # Remove and return an arbitrary(random) element from the set g
+g.clear() # Remove all elements from the set g
