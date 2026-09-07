@@ -1,0 +1,25 @@
+class Employee:
+    
+    language="py" #this is a class attribute
+    salary=1200000
+
+    def __init__(self,name,salary,language):#dunder methods are the ones which have __ in it which is automatically called
+      self.name=name
+      self.salary=salary
+      self.language=language
+      
+      print("i am creating an object")
+    def getinfo(self):
+      print(f"the language is{self.language}. the salary is {self.salary}")
+    @staticmethod
+    def greet(self):
+      print("good morning")
+
+harry=Employee("harry",1300000,"javascript")
+#harry.name="harry"
+print(harry.name,harry.salary,harry.language)
+
+
+
+
+      
